@@ -1,0 +1,12 @@
+/* CSS declarations go here */
+@font-face {
+  font-family: 'Test';
+  src: url('fonts/anything.eot');
+  src: url('fonts/anything.eot') format('embedded-opentype'),
+       url('fonts/anything.woff') format('woff'),
+       url('fonts/anything.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Test';
+}
